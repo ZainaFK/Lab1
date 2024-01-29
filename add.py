@@ -1,13 +1,7 @@
-def add(a,b):
-  return a+b
- 
-#initializing the variables
-num1 = 10
-num2 = 5
- 
-#function calling and store the result into sum_of_twonumbers
-sum_of_twonumbers = add(num1,num2)
+def add(a, b):
+#adding two numbers
+sum = a + b
  
 #To print the result
-print("Sum of {0} and {1} is {2};" .format(num1,
-                           num2, sum_of_twonumbers))
+print("Sum of", a, "and", num2, "is", sum)
+return sum
